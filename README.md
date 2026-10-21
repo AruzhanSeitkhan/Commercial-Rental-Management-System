@@ -9,3 +9,9 @@ This repository contains the documentation and development materials for our dip
 ## Current Status
 
 Project documentation has been prepared and is being organized in this repository for the first pre-defense.
+
+## Team Members
+
+- Idrisova Ayaulym
+- Seitkhankyzy Aruzhan
+- Muslimova Aluana
