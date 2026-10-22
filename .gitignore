@@ -1,0 +1,45 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# React / Node.js
+node_modules/
+dist/
+build/
+coverage/
+
+# Java / Spring Boot
+target/
+.gradle/
+*.class
+
+# Python / ML
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE files
+.idea/
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# LaTeX temporary files
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
