@@ -58,7 +58,7 @@ Direct integration with 1C, online payment processing, and full accounting funct
 | Aruzhan Seitkhankyzy | Business logic, analytics, and testing |
 | Aluana Muslimova | Frontend development, UI/UX design, and ML module |
 
-**Project Supervisor:** [Supervisor's full name]
+**Project Supervisor:** [Nadirov Nurtas]
 
 ## Current Development Status
 
