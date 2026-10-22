@@ -4,32 +4,38 @@
 
 This project is a web-based information system designed to automate the management of commercial properties, tenants, lease agreements, and rental payments.
 
-The system aims to centralize rental information, reduce manual data processing, and help property owners and managers monitor commercial rental operations.
+The system aims to centralize rental information, reduce manual data processing, and improve the monitoring of commercial rental operations.
 
-The project is being developed as a university diploma project.
+The project is developed as a university diploma project.
 
-## Main Features
+## Problem Statement
 
-The planned system includes:
+Commercial property owners and managers often use separate tools, such as Excel, 1C, and manual records, to manage properties, tenants, lease agreements, and rental payments. This fragmented approach makes it difficult to track available and occupied spaces, monitor lease expiration dates, calculate outstanding balances, and prepare accurate reports. It also increases manual work and the risk of errors.
 
-- Commercial property and premises management
-- Tenant information management
-- Lease agreement creation and tracking
-- Space availability checks and overlap prevention
-- Rental charges and payment records
-- Outstanding balance calculations
-- Notifications for expiring leases and overdue payments
-- Dashboard and rental revenue analytics
-- Role-based access control
-- ML-based monthly rental price estimation
+The proposed system aims to solve these problems by centralizing rental information, automating lease and payment monitoring, and providing a clear overview of rental operations. Official accounting will remain in 1C, while verified payments will be manually recorded in the system.
 
-## User Roles
+## Target Users
 
-**Property Owner:** Manages properties, premises, and user roles. Views occupancy, rental payments, outstanding balances, and reports.
+- **Property Owner:** Manages properties and user roles, monitors occupancy, payments, and rental reports.
+- **Rental Manager:** Manages tenants, premises, and lease agreements, and checks space availability.
+- **Accountant:** Maintains rental charges and manually records verified payments.
 
-**Rental Manager:** Manages tenants, premises, and lease agreements. Checks space availability and monitors lease expiration dates.
+## Expected Outcomes
 
-**Accountant:** Maintains rental charges and manually records verified payments. Monitors outstanding balances and financial reports.
+- A centralized database for commercial properties, tenants, agreements, and payments.
+- A web interface for managing rental operations.
+- Automated lease expiration and overdue payment notifications.
+- Occupancy monitoring and rental revenue reports.
+- A machine learning module for estimating monthly rental prices.
+- Role-based access control and tested system components.
+
+## Project Scope
+
+The system will support commercial offices, retail premises, and warehouses.
+
+The planned functionality includes property management, tenant records, lease agreements, rental charges, payments, outstanding balances, notifications, dashboards, and rental price estimation.
+
+Direct integration with 1C, online payment processing, and full accounting functionality are outside the project scope. Excel/CSV export is considered an optional feature.
 
 ## Technology Stack
 
@@ -42,39 +48,30 @@ The planned system includes:
 | API | REST API |
 | UI/UX Design | Figma |
 | Version Control | Git, GitHub |
-
-## System Architecture
-
-The application will consist of a React frontend, a Java/Spring Boot backend, a PostgreSQL database, and a separate Python ML service.
-
-The frontend communicates with the backend through REST APIs. The backend manages business logic, authentication, data validation, and database operations.
-
-The ML service will provide estimated monthly rental prices based on property characteristics.
-
-## Integration with 1C
-
-The system does not directly integrate with 1C.
-
-The Accountant verifies actual payments using bank records or 1C and manually records confirmed payments in the rental management system.
-
-Excel/CSV export is considered an optional feature for future data exchange.
-
-## Project Status
-
-**Status: In Development**
-
-The project is currently in the planning, requirements analysis, and UI/UX design stages. Implementation and testing will follow the approved project requirements.
+| Project Management | YouTrack |
 
 ## Project Team
 
-- **Ayaulym Idrissova** — Backend Development and Database Design
-- **Aruzhan Seitkhankyzy** — Business Logic, Analytics, and Testing
-- **Aluana Muslimova** — Frontend Development, UI/UX Design, and ML Module
+| Team Member | Responsibilities |
+|---|---|
+| Ayaulym Idrissova | Backend development and database design |
+| Aruzhan Seitkhankyzy | Business logic, analytics, and testing |
+| Aluana Muslimova | Frontend development, UI/UX design, and ML module |
+
+**Project Supervisor:** [Supervisor's full name]
+
+## Current Development Status
+
+**Status: Planning and Design**
+
+Our team has prepared the project proposal, requirements specification, architecture diagrams, and UX/UI prototype.
+
+Backend, frontend, ML model development, integration, and testing are planned for the next stages.
 
 ## Project Documentation
 
-The project documentation includes the Project Proposal, Evidence of Relevance, Literature Review, Requirements Specification, Architecture Diagrams, Verification and Evaluation Plan, and Project Management Plan.
 
-## Future Development
 
-The next stages include implementing the backend and frontend, preparing the ML dataset, training the rental price estimation model, integrating system components, and conducting testing.
+## Installation and Testing
+
+Setup, execution, and testing instructions will be added when runnable application code becomes available.
